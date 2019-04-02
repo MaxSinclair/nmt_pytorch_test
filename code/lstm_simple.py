@@ -37,7 +37,9 @@ out, hidden = lstm(inputs, hidden)
 print(out)
 print(hidden)
 
+
 torch.Size(hidden)
+
 
 hidden = (torch.randn(1, 1, 3))
 for i in inputs:
